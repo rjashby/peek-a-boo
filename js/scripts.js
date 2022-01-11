@@ -12,5 +12,10 @@ $(document).ready(function() {
       $("body").removeClass();
       $("body").addClass("dark-background");
     });
+
+  $("p").click(function() {
+    $("p").removeClass();
+    $("p").addClass("border");
+  });
   });
 });
